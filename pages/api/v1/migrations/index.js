@@ -3,7 +3,6 @@ import {
   join
 } from 'node:path';
 import database from "infra/database.js";
-import db from 'node-pg-migrate/dist/db';
 
 export default async function migrations(request, response) {
   const dbClient = await database.getNewClient();
