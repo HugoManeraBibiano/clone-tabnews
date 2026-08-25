@@ -98,7 +98,7 @@ describe("POST /api/v1/users", () => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          username: "",
+          username: "usuarioduplicado",
           email: "emaildeusuarioduplicado2@teste.com",
           password: "senha123",
         }),
